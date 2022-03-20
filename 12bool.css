@@ -8,10 +8,6 @@
   margin-bottom: 3rem;
 }
 
-.p-sm {
-  padding: 1rem;
-}
-
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -35,10 +31,6 @@
 .t-center {
   align-items: center;
   justify-content: center;
-}
-
-.h-max {
-  height: 100%;
 }
 
 .col-1 {
@@ -251,7 +243,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .col-lg-1 {
+  .col-md-1 {
     flex-basis: calc((100% / 12) * 1);
     max-width: calc((100% / 12) * 1);
   }
